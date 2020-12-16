@@ -65,13 +65,13 @@ div.issue_badge_content .metadata {
   min-width: 10px;
   padding: 2px 3px 3px 3px;
   /* font-weight: 700; */
-  color: #fff;
+  color: #f3f5f7;
   line-height: 1;
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #ee2630;
-  border-radius: 7px;
+  background-color: #e7ebef;
+  border-radius: 4px;
   position: relative;
   bottom: 0;
   /* font-weight: normal; */
@@ -79,7 +79,7 @@ div.issue_badge_content .metadata {
 
 
 #issue_badge .badge.red {
-  background-color: #ee2630;
+  background-color: #627a93;
 }
 
 #issue_badge .badge.green {
