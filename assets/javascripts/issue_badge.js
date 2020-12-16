@@ -4,7 +4,7 @@
 const badgeTemplate = `
 <div id="issue_badge">
   <li class="starting_point">
-    <a style="cursor: pointer" onclick="displayBadgeContents();" id="link_issue_badge" data-content_path="">
+    <a style="cursor: pointer" onclick="displayBadgeContents();" id="link_issue_badge" data-content_path="" class="badge">
       <span id="issue_badge_number" class="badge red"></span>
     </a>
   </li>
