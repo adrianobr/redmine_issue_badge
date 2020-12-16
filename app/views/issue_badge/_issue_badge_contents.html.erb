@@ -13,7 +13,7 @@
       <div class="contents_wrapper_inner">
         <% @limited_issues.each do |issue|  %>
         <div class="issue_badge_content">
-        <%= link_to("#{issue.id} #{truncate(issue.subject.html_safe, length: 120, escape: false)}", issue_path(issue),
+        <%= link_to("#{issue.id} #{truncate(issue.subject.html_safe, length: 100, escape: false)}", issue_path(issue),
                   { title: "#{issue.subject} - #{format_time(issue.created_on)}",
                     class:  issue.assigned_to.is_a?(Group) ? 'groups' : 'users' } ) %>
           <div class="metadata"><%= l(:label_project) %>: <%= issue.project %></div>
