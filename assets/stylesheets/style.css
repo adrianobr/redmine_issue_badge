@@ -21,13 +21,13 @@ div.checkbox label {
 }
 
 #issue_badge > li > div {
-  min-width: 210px;
-  max-width: 250px;
+  min-width: 320px;
+  max-width: 400px;
   position: absolute;
   display: block;
-  top: 20px;
-  left: 5px;
-  color: black;
+  top: 30px;
+  left: 25px;
+  color: #607D8B;
   background: #ffffff;
   padding: 0px;
   /* font-size: 0.8em; */
@@ -174,7 +174,7 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 }
 
 #issue_badge_contents > div.contents_wrapper {
-  width: 220px;
+  width: 320px;
   overflow-y: auto;
   max-height: 260px;
   padding-bottom: 10px;
@@ -201,17 +201,17 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 #issue_badge_contents a {
   background-position: 0% 40%;
   background-repeat: no-repeat;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
   padding-top: 2px;
   padding-bottom: 3px;
 }
 
 #issue_badge_contents a.users {
-  background-image: url("../../../images/user.png");
+  /*background-image: url("../../../images/user.png");*/
 }
 
 #issue_badge_contents a.groups {
-  background-image: url("../../../images/group.png");
+  /*background-image: url("../../../images/group.png");*/
 }
 
 @media (max-width: 899px) {
