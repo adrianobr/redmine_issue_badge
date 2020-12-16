@@ -45,11 +45,11 @@
     <div class="footer">
       <% if @query.present? && @query&.id.present? %>
         <%= link_to _project_issues_path(@query.project, { query_id: @query.id }), title: @query.name do %>
-          <%= l(:label_query) %>
+          <%= l(:label_query) class="my-tasks"%>
         <% end %>
       <% else %>
         <%= link_to issues_path(set_filter: 1, assigned_to_id: 'me', sort: 'priority:desc,updated_on:desc'), title: t(:label_assigned_to_me_issues) do %>
-          <%= l(:label_assigned_to_me_issues) %>
+          <%= l(:label_assigned_to_me_issues) class="my-tasks"%>
         <% end %>
       <% end %>
     </div>
