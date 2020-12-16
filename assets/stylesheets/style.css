@@ -185,12 +185,12 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 }
 
 #issue_badge_contents > div.footer > a {
-  background-position: 0% 50%;
-  background-repeat: no-repeat;
-  padding-left: 20px;
+  /*background-position: 0% 50%;*/
+  /*background-repeat: no-repeat;*/
+  padding-right: 10px;
   padding-top: 2px;
   padding-bottom: 3px;
-  background-image: url("../../../images/ticket_go.png");
+  /*background-image: url("../../../images/ticket_go.png");*/
 }
 
 #issue_badge_contents > div.error_message {
