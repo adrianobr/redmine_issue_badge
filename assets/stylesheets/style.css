@@ -21,13 +21,13 @@ div.checkbox label {
 }
 
 #issue_badge > li > div {
-  min-width: 210px;
-  max-width: 250px;
+  min-width: 285px;
+  max-width: 400px;
   position: absolute;
   display: block;
-  top: 20px;
-  left: 5px;
-  color: black;
+  top: 30px;
+  left: 25px;
+  color: #607D8B;
   background: #ffffff;
   padding: 0px;
   /* font-size: 0.8em; */
@@ -44,7 +44,7 @@ div.checkbox label {
 }
 
 #issue_badge a, #issue_badge a:link, #issue_badge a:visited {
-  color: #169;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -63,27 +63,25 @@ div.issue_badge_content .metadata {
 #issue_badge .badge {
   display: inline-block;
   min-width: 10px;
-  padding: 2px 3px 3px 3px;
-  /* font-weight: 700; */
-  color: #fff;
+  padding: 5px 5px 5px 7px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #f3f5f7;
   line-height: 1;
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #ee2630;
-  border-radius: 7px;
+  background-color: #e7ebef;
+  border-radius: 10px;
   position: relative;
   bottom: 0;
-  /* font-weight: normal; */
-}
-
-
-#issue_badge .badge.red {
-  background-color: #ee2630;
 }
 
 #issue_badge .badge.green {
-  background-color: #4eb97e;
+  background-color: #00B67A;
+}
+#issue_badge .badge.red {
+  background-color: #00B67A;
 }
 
 .arrow_box {
@@ -138,12 +136,12 @@ div.notifications > div.footer {
 
 /*---- Use ticket_go png as icon -----*/
 #issue_badge_contents > div.no-issue {
-  background-image: url("../images/coffee.jpg");
+  background-image: url("../images/good-job.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 80%;
-  height: 50px;
-  opacity: 0.5;
+  background-position: 50%;
+  height: 64px;
+  margin: 15px;
   border-bottom: none;
 }
 
@@ -174,7 +172,7 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 }
 
 #issue_badge_contents > div.contents_wrapper {
-  width: 220px;
+  width: 320px;
   overflow-y: auto;
   max-height: 260px;
   padding-bottom: 10px;
@@ -185,12 +183,10 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 }
 
 #issue_badge_contents > div.footer > a {
-  background-position: 0% 50%;
-  background-repeat: no-repeat;
-  padding-left: 20px;
+  padding-right: 10px;
   padding-top: 2px;
   padding-bottom: 3px;
-  background-image: url("../../../images/ticket_go.png");
+  text-transform: capitalize;
 }
 
 #issue_badge_contents > div.error_message {
@@ -201,17 +197,20 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 #issue_badge_contents a {
   background-position: 0% 40%;
   background-repeat: no-repeat;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
   padding-top: 2px;
   padding-bottom: 3px;
 }
+a.icon.icon-add.new-issue:before {
+    content: "\e93e" !important;
+}
 
 #issue_badge_contents a.users {
-  background-image: url("../../../images/user.png");
+  /*background-image: url("../../../images/user.png");*/
 }
 
 #issue_badge_contents a.groups {
-  background-image: url("../../../images/group.png");
+  /*background-image: url("../../../images/group.png");*/
 }
 
 @media (max-width: 899px) {
