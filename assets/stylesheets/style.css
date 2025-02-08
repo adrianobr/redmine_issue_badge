@@ -26,7 +26,7 @@ div.checkbox label {
   position: absolute;
   display: block;
   top: 30px;
-  left: 25px;
+  right: 0px;
   color: #607D8B;
   background: #ffffff;
   padding: 0px;
@@ -119,7 +119,7 @@ div.notifications > div {
   padding: 7px;
   padding-left: 8px;
   padding-right: 8px;
-  border-bottom: 1px solid #c9c9c9;
+  border-bottom: 1px solid #f6efef;
 }
 
 div.notifications > div.header {
