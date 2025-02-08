@@ -44,7 +44,6 @@ div.checkbox label {
 }
 
 #issue_badge a, #issue_badge a:link, #issue_badge a:visited {
-  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -183,10 +182,8 @@ div.contents_wrapper::-webkit-scrollbar-thumb {
 }
 
 #issue_badge_contents > div.footer > a {
+  color: #607D8B !important;
   padding-right: 10px;
-  padding-top: 2px;
-  padding-bottom: 3px;
-  text-transform: capitalize;
 }
 
 #issue_badge_contents > div.error_message {
