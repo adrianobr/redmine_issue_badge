@@ -124,14 +124,14 @@ div.notifications > div {
 
 div.notifications > div.header {
   font-weight: bold;
-  background: #f6f5f5;
+  background: var(--c-bg, #f6f5f5);
   white-space: normal;
 }
 
 div.notifications > div.footer {
   text-align: right;
   padding-right: 0;
-  background: #f6f5f5;
+  background: var(--c-bg, #f6f5f5);
 }
 
 /*---- Use ticket_go png as icon -----*/
