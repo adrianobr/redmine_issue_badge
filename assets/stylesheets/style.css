@@ -40,7 +40,7 @@ div.checkbox label {
 }
 
 #issue_badge > li > div a, a:link, a:visited {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #issue_badge a, #issue_badge a:link, #issue_badge a:visited {
