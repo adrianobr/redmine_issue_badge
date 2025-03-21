@@ -8,7 +8,7 @@ class IssueBadgeUserSetting < ActiveRecord::Base # rubocop:disable Rails/Applica
 
   before_save :validate_query_id
 
-  enum badge_order: { oldest: 0, newest: 1 }
+  enum badge_order: { newest: 0, oldest: 1 }
   scope :enabled, -> { where(enabled: true) }
   scope :show_assigned_to_group, -> { where(show_assigned_to_group: true) }
 
