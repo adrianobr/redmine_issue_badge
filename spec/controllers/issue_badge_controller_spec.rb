@@ -147,7 +147,7 @@ describe IssueBadgeController, type: :controller do
 
       it '1st issue should not be included with order by desc' do
         setting = IssueBadgeUserSetting.find_or_create_by_user_id(user)
-        setting.update(badge_order: 1)
+        setting.update(badge_order: 0)
 
         # from 7 to 3
         get :load_badge_contents
