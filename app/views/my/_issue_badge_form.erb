@@ -29,10 +29,10 @@
       </p>
       <p id='badge_order' style="display: <%= global_enabled || @issue_badge.enabled ? 'block' : 'none' %>">
         <label><%= h l(:label_badge_order, default: 'List order') %></label>
-        <%= radio_button_tag 'issue_badge[badge_order]', "oldest", @issue_badge.oldest? %>
-        <%= h l(:label_badge_order_oldest, value: number_to_display, default: 'Oldest 5 issues') %><br/>
         <%= radio_button_tag 'issue_badge[badge_order]', "newest", @issue_badge.newest? %>
-        <%= h l(:label_badge_order_newest, value: number_to_display, default: 'Newest 5 issues') %>
+        <%= h l(:label_badge_order_newest, value: number_to_display, default: 'Newest 5 issues') %><br/>
+        <%= radio_button_tag 'issue_badge[badge_order]', "oldest", @issue_badge.oldest? %>
+        <%= h l(:label_badge_order_oldest, value: number_to_display, default: 'Oldest 5 issues') %>
       </p>
   <% end %>
 </fieldset>
